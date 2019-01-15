@@ -1,0 +1,94 @@
+.landing {
+    width: 100%;
+    min-height: 100%;
+    /*background: linear-gradient(rgba(17, 17, 17, 0.95), rgba(17, 17, 17, 0.95)), url(../images/iveco-electric-fist-logo.png);*/
+    /*background-image: url(../images/iveco-electric-fist-logo.png);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+.landing > div {
+    color: #fff;
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.landing > div > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+/*.text-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}*/
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo img {
+    margin: 0 auto;
+}
+
+.text-center h3 {
+    text-transform: uppercase;
+}
+
+.text-center p {
+    color: #999;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.text-center a {
+    text-transform: uppercase;
+}
+
+#nav-logo {
+    width: 40%;
+}
+
+.jumbotron {
+    background-color: #dc3545;
+}
+
+nav.bg-light {
+    background-color: #e9ecef !important;
+}
+
+#hero-form {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.hero-header-1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    font-family:Sailec-Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#hero-form h2 {
+    margin: 0 0 16px;
+}
+
+.hero-paragraph {
+    color: #fff;
+}
+.navbar-nav li {
+    padding: 0 15px;
+}
+
+.navbar-nav {
+    padding-right: 15px;
+}
+.navbar-collapse button {
+    padding-left: 15px;
+}
